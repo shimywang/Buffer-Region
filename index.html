@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href = "style.css" rel = "stylesheet">
+    <script src="konva.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Konva Free Drawing Demo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Tool:
+    <select id="tool">
+      <option value="circle">Circle</option>
+	  <option value="eraser">Eraser</option>
+	  <option value = "select">Select</option> -->
+    </select>
+    <div id = "controler" class = "flatten">
+      <input type = "number" id = "number"/>
+      <select id = "type">
+        <option value = "time">min</option>
+        <option value = "distance">m</option>
+      </select>
+  
+    </div>
+    <div id="container"></div>
+    <script src = "drawcircle.js"> </script>
+
+
+  </body>
+</html>
